@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaJam | Home</title>
+		<link rel="stylesheet" href="javajam.css">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<!-- important words on this page and a short description to aid in accessibility-->
+		<meta name="keywords" content="JavaJam, gourmet, coffee shop, snacks, coffee, tea, soft drinks, live music, Ellison Bay, Wisconsin">
+		<meta name="description" content="The JavaJam Coffee House is a gourmet coffee house that serves snacks, coffee, tea, and soft drinks. Local folk music performances and poetry reading are held every few nights during the week.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+		<!--[if lt IE 9]>
+   		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   
+		<![endif]-->
+	</head>
+	<body>
+		<div id="wrapper"><!--opens the wrapper-->
+			<header>
+				<h1>JavaJam Coffee House</h1>
+			</header>
+			<nav>
+				<ul>
+					<!-- links to important sub pages-->
+					<li><a href="index.html" target="_self">Home</a></li>
+					<li><a href="menu.html" target="_self">Menu</a></li>
+					<li><a href="music.html" target="_self">Music</a></li>
+					<li><a href="#" target="_self">Jobs</a></li>		
+				</ul>
+			</nav>	
+			<main id="hero">
+				<h2>
+				Follow the Winding Road to JavaJam			
+				</h2>
+				<div><!--opens first div-->
+					<!--menu items-->
+					<ul>
+						<li>Specialty Coffee and Tea</li>
+						<li>Bagels, Muffins and Organic Snacks</li>
+						<li>Music and Poetry Readings</li>
+						<li>Open Mic Night Every Friday Night</li>				
+					</ul>
+				</div><!--closes first div-->
+				<div><!--opens second div-->
+					<br>
+					<!--mailing address-->				
+					54321 Route 42 <br>
+					Ellison Bay, WI 54210 <br>
+					<a id="mobile" href="tel:888-555-5555">888-555-55555</a>
+					<span id="desktop">1.888.555.5555</span> <br><br>			
+				</div><!--closes second div-->		
+			</main>
+			<footer>
+				Copyright &copy 2016 JavaJam Coffee House <br>
+				<!--main contact email address-->			
+				<a href="mailto:java@javajam.com">java@javajam.com</a> <br><br>		
+			</footer>
+		</div><!--closes the wrapper-->
+	</body>
+</html>
