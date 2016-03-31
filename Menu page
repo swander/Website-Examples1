@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaJam | Menu</title>
+		<link rel="stylesheet" href="javajam.css">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<meta name="keywords" content="JavaJam, gourmet, coffee shop, snacks, coffee, tea, soft drinks, live music, Ellison Bay, Wisconsin">
+		<meta name="description" content="The JavaJam Coffee House is a gourmet coffee 		house that serves snacks, coffee, tea, and soft drinks. Local folk music 				performances and poetry reading are held every few nights during the week.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--[if lt IE 9]>
+   		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   
+		<![endif]-->
+	</head>
+	<body>
+		<div id="wrapper"><!--opening of wrapper-->
+			<header>
+				<h1>JavaJam Coffee House</h1>
+			</header>
+			<nav>
+				<ul>				
+					<!--links to important sub pages-->			
+					<li><a href="index.html" target="_self">Home</a></li>
+					<li><a href="#" target="_self">Menu</a></li>
+					<li><a href="music.html" target="_self">Music</a></li>
+					<li><a href="#" target="_self">Jobs</a></li>		
+				</ul>
+			</nav>	
+			<main>
+			<h2>
+			Coffee at JavaJam		
+			</h2>
+				<div><!--opening of division-->
+					<dl><!--short descriptions of specific menu items-->
+						<dt>Just Java</dt>
+							<dd>
+								Regular house blend, decaffeinated coffee, or flavor of the day.<br>Endless Cup $2.00
+							</dd>
+						<dt>Cafe au Lait</dt>
+							<dd>
+								House blended coffee infused into a smooth, steamed milk. <br>
+								Single $2.00 Double $3.00
+							</dd>
+						<dt>Iced Cappuccino</dt>
+							<dd>
+								Sweetened espresso blended with icy-cold milk and severed in a chilled glass.<br>Single $4.75 Double $5.75
+							</dd>
+					</dl>
+				</div><!--closing of division-->
+			</main>
+			<footer>
+				Copyright &copy 2016 JavaJam Coffee House <br>
+				<!--main contact email address-->			
+				<a href="mailto:java@javajam.com">java@javajam.com</a> <br><br>		
+			</footer>
+		
+	</body>
+</html>
