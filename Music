@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaJam | Music</title>
+		<link rel="stylesheet" href="javajam.css">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<meta name="keywords" content="JavaJam, gourmet, coffee shop, snacks, coffee, tea, soft drinks, live music, Ellison Bay, Wisconsin">
+		
+		<meta name="description" content="The JavaJam Coffee House is a gourmet coffee house that serves snacks, coffee, tea, and soft drinks. Local folk music performances and poetry reading are held every few nights during the week.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--[if lt IE 9]>
+   		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   
+		<![endif]-->
+	</head>
+	<body>
+		<div id="wrapper"> <!--opening of wrapper-->
+			<header>
+				<h1>JavaJam Coffee House</h1>
+			</header>
+			<nav>
+				<ul>					
+					<!--links to important sub pages-->			
+					<li><a href="index.html" target="_self">Home</a></li>
+					<li><a href="menu.html" target="_self">Menu</a></li>
+					<li><a href="#" target="_self">Music</a></li>
+					<li><a href="#" target="_self">Jobs</a></li>
+				</ul>		
+			</nav>	
+			<main>
+			<h2>
+				Music at JavaJam	
+			</h2>
+				
+					<!--Short invitation to music nights-->
+					<p>
+						The first Friday night each month at JavaJam is a special night. Join us from 8pm to 11pm for some music you won&rsquo;t want to miss!				
+					</p>
+				<section><!--opens first section-->
+					<h3>January</h3>
+					<a href="images/melanie.jpg" target="_self"><img src="images/melaniethumb.jpg" width="80" height="80" alt="Picture of Melanie Morris singing"></a>				
+					<p>
+						Melanie Morris entertains with her melodic folk style. <br>
+						Check out the podcast! <br>
+						CDs are now available.<br><br>
+					</p>				
+					
+				</section><!--closes first section-->
+				<section><!--opens second section-->
+					<h3>February</h3>		
+					<a href="images/greg.jpg" target="_self"><img src="images/gregthumb.jpg" width="80" height="80" alt="Tahoe Greg strumbing his guitar"></a>
+					<p>
+						Tahoe Greg is back from his tour.<br>
+						New songs.<br>
+						New stories.<br>
+						CDs are now available.<br><br>
+				
+					</p>			
+				</section><!--closes second section-->
+			</main>
+			<footer>
+				Copyright &copy 2016 JavaJam Coffee House <br>
+				<!--main contact email address-->			
+				<a href="mailto:java@javajam.com">java@javajam.com</a> <br><br>		
+			</footer>
+	</div> <!--closing of wrapper-->
+	</body>
+</html>
